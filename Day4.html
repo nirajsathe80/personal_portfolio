@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day4</title>
+</head>
+<body>
+    <h1 style="color: violet;">
+        Welcome to Day4 of HTML
+    </h1>
+
+    <!-- <img src="D:\Web Development\photo-1426024084828-5da21e13f5dc.jfif" alt=""  usemap="#mapping" > -->
+
+    <map name="mapping">
+
+        <area shape="rect" coords="15,21,250,265" href="http://www.amazon.com" alt="" target="_blank">
+    </map>
+
+    <div>
+        Name:
+        <input type="text" placeholder="Name" size="50" autofocus>
+    </div>
+    <br><br><br>
+    <select>
+        <optgroup label="languages">
+            <option value="">java</option>
+            <option value="" >python</option>
+            <option value="">c</option>
+            <option value="">c++</option>
+        </optgroup>
+
+
+
+    </select>
+    <br>
+    <br>
+    <form >
+        search:
+        <input type="text"  list="fruits">
+        <datalist id="fruits">
+            <option value="apple"></option>
+            <option value="mango"></option>
+            <option value="cheku"></option>
+            <option value="grapes"></option>
+            <option value="banana"></option>
+
+
+        </datalist>
+        
+        <input type="submit" value="submit">
+
+
+
+    </form>
+
+    <div>
+        cars:
+        <input type="text" list="car-brands">
+        <datalist id="car-brands">
+            <option value="tata">tata</option>
+            <option value="bmw">bmw</option>
+            <option value="audi">audi</option>
+            <option value="lamborghini">lamborghini</option>
+
+
+        </datalist>
+        <br><br>
+
+        <fieldset>
+            <legend>Basic information <br></legend>
+                <label for="name">Full Name:</label>
+                    <input type="text" id="name">
+                <label for="address">Adress:</label>
+                    <input type="text" id="address">
+            
+        
+        </fieldset>
+
+
+    </div>
+    
+</body>
+</html>

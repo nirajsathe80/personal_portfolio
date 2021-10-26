@@ -1,0 +1,45 @@
+body{
+    margin: 0px;
+}
+
+.row{
+    display: flex;
+}
+
+.header{
+    height: 60px;
+    width: 100%;
+    background-color: aqua;
+}
+
+.nav{
+    height: 500px;
+    width: 30%;
+    background-color: brown;
+    margin-top: 10px;
+}
+
+.main{
+    height: 500px;
+    width: 70%;
+    background-color: blue;
+    margin-top: 10px;
+    display: flex;
+    justify-content: right;
+}
+
+.side{
+    height: 150px;
+    width: 30%;
+    background-color: chartreuse;
+    
+    
+}
+
+.footer{
+    height: 60px;
+    width: 100%;
+    background-color:tomato;
+    margin-top: 10px;
+
+}

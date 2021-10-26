@@ -1,0 +1,11 @@
+.header {
+    height: 60px;
+    width: 100%;
+    background-color: brown;
+}
+
+.main {
+    height: 800px;
+    width: 60%;
+    background-color: tomato;
+}
