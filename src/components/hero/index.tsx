@@ -9,15 +9,15 @@ function Hero() {
         className="mt-4"
       />
       <h1 className="text-4xl leading-[60px] text-center w-[70%]">
-        <span className="hero-text">I'm Niraj Sathe,</span>frontend developer
-        with 2+ years of Experience
+        <span className="hero-text">I'm Niraj Sathe,</span>
+        frontend developer with 2+ years of Experience
       </h1>
       <p className="w-[50%] text-xl text-center leading-7">
         I am frontend developer with 2+ years of experience in multiple
         companies like Snapmint and Campk12
       </p>
       <div className="flex gap-5 mb-12">
-        <div className="navbar-btn">
+        <div className="navbar-btn linear-gradient-bg zoom-effect">
           <AnchorLink href="#contact" className="">
             Contact With Me
           </AnchorLink>
