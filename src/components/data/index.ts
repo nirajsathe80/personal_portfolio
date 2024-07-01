@@ -54,3 +54,25 @@ export const navbarMenu = [
     id: "#contact",
   },
 ];
+
+export const experienceData = [
+  {
+    srNo: "01",
+    title: "Snapmint",
+    points: [
+      " Archietecture revamp which resulted in overall 30% code reduction",
+      "Migrated old web pages into new which resulted in SEO growth",
+      "Common component library with used across all the projects",
+      " Analytic tool integration resulted in simplified montly analysis",
+    ],
+  },
+  {
+    srNo: "02",
+    title: "Campk12",
+    points: [
+      "Optimization of pages for better SEO ranking",
+      "Crafted and uphelded dynamic web pages for company",
+      "Responsive, mobile-first-approch leading in 35% increase in mobile traffic",
+    ],
+  },
+];
