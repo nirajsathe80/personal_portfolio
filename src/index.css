@@ -16,14 +16,21 @@ body {
 }
 
 .navbar-btn {
-  padding: 15px 20px;
-  background: linear-gradient(267deg, #da7c25 0.36%, #b923e1 102.06%);
+  padding: 16px 20px;
   font-size: 16px;
   cursor: pointer;
   transition: 0.5s;
   border-radius: 50px;
+  background: linear-gradient(267deg, #da7c25 0.36%, #b923e1 102.06%);
 }
 
 .navbar-btn:hover {
   transform: scale(1.05);
+}
+
+.hero-text {
+  background: linear-gradient(267deg, #da7c25 0.36%, #b923e1 102.06%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
