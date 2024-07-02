@@ -175,3 +175,26 @@ export const projectsData = [
     ],
   },
 ];
+
+export const conatctData = [
+  {
+    title: "nirajsathe80@gmail.com",
+    className: "fa-solid fa-envelope",
+  },
+  {
+    title: "+91-9028857806",
+    className: "fa-solid fa-phone",
+  },
+  {
+    title: "Linkdin",
+    className: "fa-brands fa-linkedin",
+  },
+  {
+    title: "Github",
+    className: "fa-brands fa-github",
+  },
+  {
+    title: "Nanded, Maharashtra",
+    className: "fa-solid fa-location-dot",
+  },
+];
