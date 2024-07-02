@@ -153,4 +153,25 @@ export const projectsData = [
       },
     ],
   },
+  {
+    id: "04",
+    title: "Background Color Change",
+    disc: "The Background color changes when user clicks on any color pallet",
+    technologies: [
+      {
+        lang: "React Js",
+        src: "https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg",
+      },
+      {
+        lang: "Tailwind css",
+        src: "https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg",
+      },
+    ],
+    sourceCode: [
+      {
+        title: "Source code",
+        url: "https://github.com/nirajsathe80/Background-Color-Change/tree/main/Background-Color-Change",
+      },
+    ],
+  },
 ];

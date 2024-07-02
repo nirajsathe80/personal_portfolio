@@ -4,7 +4,7 @@ function Projects() {
   return (
     <div className="flex flex-col items-center gap-5 py-12" id="projects">
       <h1 className="font-bold text-3xl">Projects</h1>
-      <div className="flex flex-wrap justify-between w-full my-8">
+      <div className="flex flex-wrap gap-9 justify-between w-full my-8">
         {projectsData.map((project, index) => {
           const { title, disc, technologies, sourceCode } = project;
           return (
