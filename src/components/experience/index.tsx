@@ -9,7 +9,7 @@ function Experience() {
           const { srNo, title, points } = data;
           return (
             <div
-              className="border-[2px] border-[white] rounded-lg w-full py-4 flex flex-col my-6 px-10 experience-box zoom-effect"
+              className="border-[2px] border-[white] rounded-lg w-full py-4 flex flex-col my-6 px-10 shadow-md hover:border-2 hover:border-[#ff00ff] zoom-effect"
               key={index}
             >
               <p className="text-xl font-semibold">{srNo}</p>
