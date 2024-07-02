@@ -76,3 +76,81 @@ export const experienceData = [
     ],
   },
 ];
+
+export const projectsData = [
+  {
+    id: "01",
+    title: "Personal portfolio",
+    disc: "My personal portfolio showcasing my projects and experience",
+    technologies: [
+      {
+        lang: "React Js",
+        src: "https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg",
+      },
+      {
+        lang: "Typescript",
+        src: "https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg",
+      },
+      {
+        lang: "Tailwind css",
+        src: "https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg",
+      },
+    ],
+    sourceCode: [
+      {
+        title: "View on web",
+        url: "",
+      },
+      {
+        title: "Source code",
+        url: "https://github.com/nirajsathe80/personal_portfolio",
+      },
+    ],
+  },
+  {
+    id: "02",
+    title: "Password Generator",
+    disc: "Created a password generator with variable ",
+    technologies: [
+      {
+        lang: "React Js",
+        src: "https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg",
+      },
+      {
+        lang: "Typescript",
+        src: "https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg",
+      },
+      {
+        lang: "Tailwind css",
+        src: "https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg",
+      },
+    ],
+    sourceCode: [
+      {
+        title: "Source code",
+        url: "https://github.com/nirajsathe80/Background-Color-Change/tree/main/passwordGenerator",
+      },
+    ],
+  },
+  {
+    id: "03",
+    title: "Todo App",
+    disc: "Implemented Todo app with add, edit and delete features",
+    technologies: [
+      {
+        lang: "React Js",
+        src: "https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg",
+      },
+    ],
+    sourceCode: [
+      {
+        title: "View on web",
+        url: "https://nirajsathe80.github.io/todo-app/",
+      },
+      {
+        title: "Source code",
+        url: "https://github.com/nirajsathe80/todo-app",
+      },
+    ],
+  },
+];
