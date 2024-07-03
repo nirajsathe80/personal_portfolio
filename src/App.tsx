@@ -8,7 +8,7 @@ import Footer from "./components/footer";
 
 function App() {
   return (
-    <div className="w-[80vw] mx-auto">
+    <div className="w-[80vw] md:w-[90vw] mx-auto">
       <Navbar />
       <Hero />
       <Skills />
