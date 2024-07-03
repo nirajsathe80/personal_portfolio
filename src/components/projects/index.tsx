@@ -1,10 +1,18 @@
 import { projectsData } from "../data";
+import waveHandSvg from "../../assets/images/wave-hand.svg";
 
 function Projects() {
   return (
     <div className="flex flex-col items-center gap-5 py-12" id="projects">
-      <h1 className="font-bold text-3xl">Projects</h1>
-      <div className="flex flex-wrap gap-9 justify-between w-full my-8">
+      <div className="w-max relative">
+        <h1 className="font-bold text-3xl">Projects</h1>
+        <img
+          src={waveHandSvg}
+          alt="wave-hand"
+          className="w-[100px] absolute top-2 right-[-30px] z-[-1]"
+        />
+      </div>
+      <div className="w-full my-8 grid md:grid-cols-2 lg:grid-cols-3 grid-cols-1 md:gap-8 gap-6">
         {projectsData.map((project, index) => {
           const { title, disc, technologies, sourceCode } = project;
           return (
