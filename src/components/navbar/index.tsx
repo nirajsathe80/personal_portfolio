@@ -60,7 +60,7 @@ function Navbar() {
         className="lg:hidden block cursor-pointer h-8"
         onClick={() => setIsSidebarMenuOpen(true)}
       >
-        <img src={menu} alt="menu" />
+        <img src={menu} alt="menu-svg" />
       </div>
 
       {isSidebarMenuOpen ? (
