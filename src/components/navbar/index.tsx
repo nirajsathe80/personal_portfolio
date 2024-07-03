@@ -22,7 +22,7 @@ function Navbar() {
           );
         })}
       </ul>
-      <div className="navbar-btn linear-gradient-bg zoom-effect">
+      <div className="linear-gradient-bg zoom-effect">
         <AnchorLink href="#contact" className="">
           Contact With Me
         </AnchorLink>
