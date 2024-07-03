@@ -76,7 +76,7 @@ function Projects() {
           );
         })}
       </div>
-      <div className="flex gap-3 items-center py-3 px-7 border-2 border-[white] rounded-xl mb-8 mt-4">
+      <div className="flex gap-3 items-center py-3 px-7 border-2 border-[white] rounded-xl mb-8">
         <button
           onClick={() =>
             window.open(
