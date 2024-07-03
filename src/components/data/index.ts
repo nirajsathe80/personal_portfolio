@@ -46,7 +46,7 @@ export const navbarMenu = [
     id: "#experience",
   },
   {
-    title: "Project",
+    title: "Projects",
     id: "#projects",
   },
   {
