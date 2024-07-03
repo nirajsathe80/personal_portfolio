@@ -180,21 +180,26 @@ export const conatctData = [
   {
     title: "nirajsathe80@gmail.com",
     className: "fa-solid fa-envelope",
+    url: "https://mail.google.com/mail/u/0/#inbox",
   },
   {
     title: "+91-9028857806",
     className: "fa-solid fa-phone",
+    url: "",
   },
   {
     title: "Linkdin",
     className: "fa-brands fa-linkedin",
+    url: "https://www.linkedin.com/in/niraj-sathe-634390167/",
   },
   {
     title: "Github",
     className: "fa-brands fa-github",
+    url: "https://github.com/nirajsathe80/",
   },
   {
     title: "Nanded, Maharashtra",
     className: "fa-solid fa-location-dot",
+    url: "",
   },
 ];
