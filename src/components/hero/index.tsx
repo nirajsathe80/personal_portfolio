@@ -5,6 +5,7 @@ function Hero() {
     <div className="flex items-center flex-col gap-5 mx-auto w-full">
       <img
         src="https://greatstack.in/portfolio/assets/profile_img-isMTF2gD.svg"
+        alt="hero-image"
         className="mt-4"
       />
       <h1 className="md:text-4xl xsm:text-2xl text-xl md:leading-[50px] leading-8 text-center md:max-w-[600px] ">
