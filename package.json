@@ -1,7 +1,7 @@
 {
   "homepage": "https://github.com/nirajsathe80/personal_portfolio/",
   "name": "personal-portfolio",
-  "private": true,
+  "private": false,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
