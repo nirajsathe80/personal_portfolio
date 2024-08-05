@@ -21,9 +21,14 @@ function Hero() {
           <AnchorLink href="#contact">Contact With Me</AnchorLink>
         </div>
 
-        <div className="flex items-center justify-center sm:px-5 sm:py-4 p-3   rounded-[50px] cursor-pointer border-2 border-[white] xsm:text-base text-[10px] sm:text-lg hover:border-[#B415ff]">
+        <a
+          href="https://drive.google.com/file/d/1VadmVkVUPIH2uFEXwLTkYdsOS3q6IgW6/view?usp=drive_link"
+          download
+          target="_blank"
+          className="flex items-center justify-center sm:px-5 sm:py-4 p-3   rounded-[50px] cursor-pointer border-2 border-[white] xsm:text-base text-[10px] sm:text-lg hover:border-[#B415ff]"
+        >
           Downlaod My Resume{" "}
-        </div>
+        </a>
       </div>
     </div>
   );
