@@ -1,12 +1,12 @@
 import AnchorLink from "react-anchor-link-smooth-scroll";
-
+import HeroImage from "../../assets/images/Hero_Image.jpg";
 function Hero() {
   return (
     <div className="flex items-center flex-col gap-5 mx-auto w-full">
       <img
-        src="https://greatstack.in/portfolio/assets/profile_img-isMTF2gD.svg"
+        src={HeroImage}
         alt="hero-image"
-        className="mt-4"
+        className="mt-4 h-[320px] w-[320px] rounded-full"
       />
       <h1 className="md:text-4xl xsm:text-2xl text-xl md:leading-[50px] leading-8 text-center md:max-w-[600px] ">
         <span className="hero-text">I'm Niraj Sathe,</span> Frontend developer

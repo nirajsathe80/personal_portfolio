@@ -1,5 +1,6 @@
 import { achievements, skills } from "../data";
 import waveHandSvg from "../../assets/images/wave-hand.svg";
+import HeroImage from "../../assets/images/Hero_Image.jpg";
 
 function Skills() {
   return (
@@ -15,7 +16,7 @@ function Skills() {
 
       <div className="flex justify-center gap-16 mx-auto">
         <img
-          src="https://greatstack.in/portfolio/assets/about_profile-kNAyOvDL.svg"
+          src={HeroImage}
           alt="hero-img"
           className="rounded-lg w-[300px] lg:block hidden"
         />
